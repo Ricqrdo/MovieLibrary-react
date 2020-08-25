@@ -1,9 +1,11 @@
 import React from "react";
 
+import MoviesList from "./containers/MoviesList";
+
 export default function App() {
   return (
     <>
-      <h1>hi</h1>
+      <MoviesList />
     </>
   );
 }

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "title": "Avatar",
+    "year": "2008",
+    "type": "Movie"
+  },
+  {
+    "id": "2",
+    "title": "Lucifer",
+    "year": "2017",
+    "type": "Serie"
+  },
+  {
+    "id": "3",
+    "title": "Fury",
+    "year": "2015",
+    "type": "Movie"
+  }
+]
