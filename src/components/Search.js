@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./_Search.scss";
 
 export default function Search({ setKeyword }) {
   const [word, setWord] = useState("");
@@ -20,15 +21,19 @@ export default function Search({ setKeyword }) {
   };
 
   return (
-    <div>
-      <form onSubmit={onSubmit}>
+    <div className="search-container">
+      <form onSubmit={onSubmit} className="search-form">
         <input
           type="text"
           placeholder="Search..."
           value={word}
           onChange={onChange}
           autoFocus
+          className="search-input"
         />
+        <button type="submit" className="search-button">
+          Search
+        </button>
       </form>
     </div>
   );

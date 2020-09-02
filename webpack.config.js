@@ -1,6 +1,11 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const webpack = require("webpack");
 
 module.exports = {
+  devServer: {
+    hot: true,
+  },
   module: {
     rules: [
       {
@@ -18,9 +23,13 @@ module.exports = {
     hot: true,
   },
   plugins: [
+    new webpack.HotModuleReplacementPlugin(),
     new HtmlWebpackPlugin({
       template: "./src/index.html",
       filename: "./index.html",
+    }),
+    new MiniCssExtractPlugin({
+      filename: "bundle.css",
     }),
   ],
 };

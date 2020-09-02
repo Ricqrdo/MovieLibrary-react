@@ -1,0 +1,25 @@
+.search-container {
+  height: 10vh;
+  background: #353535;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .search-input {
+    border-radius: 20px 0 0 20px;
+    padding: 7px 10px;
+    background: #f1f1f1;
+    border: none;
+    height: 30px;
+    width: auto;
+  }
+  .search-button {
+    color: #f1f1f1;
+    font-weight: bold;
+    border: none;
+    background: #8a2727;
+    border-radius: 0 20px 20px 0;
+    height: 30px;
+    width: auto;
+    padding: 5px 10px;
+  }
+}

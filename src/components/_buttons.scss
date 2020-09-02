@@ -1,0 +1,19 @@
+.buttons {
+  height: auto;
+  padding: 20px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #111827;
+  button {
+    width: auto;
+    height: auto;
+    padding: 5px 10px;
+    background: #8a2727;
+    color: #f1f1f1;
+    font-size: 17px;
+    font-weight: bolder;
+    margin: 0 25px;
+  }
+}
